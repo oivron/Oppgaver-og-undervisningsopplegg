@@ -1,6 +1,6 @@
 ## Komme i gang med programmering
 
-Grunnleggende ppgaver i Python.
+Grunnleggende oppgaver i Python.
 
 ### Oppgave 1: Skriv navnet ditt (Python)
 <details>
