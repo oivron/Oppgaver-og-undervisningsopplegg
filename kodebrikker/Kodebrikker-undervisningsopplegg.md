@@ -1,4 +1,4 @@
-Forslag til undervisningsopplegg for Statpeds kodebrikker
+# Forslag til undervisningsopplegg for Statpeds kodebrikker
 
 ## 1. Introduksjon av kodebrikker
 <details>
