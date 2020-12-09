@@ -51,7 +51,7 @@ Snakk om:
 <summary>Klikk for å utvide.</summary>
 
 
-Statped har testet ulike roboter til bruk i progammering. Disse finner du mer informasjon om her (lenke). Det finnes også mange andre på markedet som kan fungere. Opplegget under bygger på koderoboten Blu-Bot, men kan enkelt endres til andre roboter.
+Statped har testet ulike roboter til bruk i progammering. Disse finner du mer informasjon om her (lenke). Det finnes også mange andre på markedet som kan fungere. Opplegget under bygger på koderoboten Blue-Bot, men kan enkelt endres til andre roboter.
 
 ### Tidsbruk:
 
