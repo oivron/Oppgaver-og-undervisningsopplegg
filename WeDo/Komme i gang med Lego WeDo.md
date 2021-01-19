@@ -1,4 +1,4 @@
-# Komme i gang med Lego WeDo
+# Programmere Lego WeDo med Python
 
 Før du begynner på disse oppgavene, kan det lønne seg å prøve noen enkle Python-oppgaver først.
 
