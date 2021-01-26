@@ -108,7 +108,7 @@ print("Hei " + navn)
 
 ### Oppgave 2: Tekst-til-tale (Python)
 
-Tekst-til-tale eller talesyntese kan brukes til å få datamaskinen din til å snakke.
+Tekst-til-tale (eller talesyntese) kan brukes til å få datamaskinen din til å snakke.
 <details>
 <summary>Klikk for å utvide.</summary>
 
@@ -116,7 +116,7 @@ Utstyr: Visual Studio Code, høyttalere.
 
 #### Deloppgave A
 
-I denne deloppgaven skal du lage et lite program som leser opp en melding med tekst-til-tale eller talesyntese.
+I denne deloppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
 
 1. Før du kan bruke tekst-til-tale i Python, må du sørge for at det er installert. Gå til Terminal (**Ctrl+Ø**) og skriv:
 
