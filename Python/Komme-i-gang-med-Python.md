@@ -3,6 +3,8 @@
 Grunnleggende oppgaver i Python.
 
 ### Oppgave 1: Skriv navnet ditt (Python)
+
+Her er noen grunnleggnede oppgaver med Python. Dette kan være et bra sted å starte når du skal begynne å lære dette programmeringsspråket.
 <details>
 <summary>Klikk for å utvide.</summary>
 
