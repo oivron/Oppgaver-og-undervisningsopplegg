@@ -104,3 +104,141 @@ print("Hei " + navn)
 13. Ta en skjermdump av programvinduet til Visual Studio Code.
 </details>
 
+### Oppgave 2: Tekst-til-tale (Python)
+<details>
+<summary>Klikk for å utvide.</summary>
+
+Utstyr: Visual Studio Code, høyttalere.
+
+#### Deloppgave A
+
+I denne deloppgaven skal du lage et lite program som leser opp en melding med tekst-til-tale eller talesyntese.
+
+1. Før du kan bruke tekst-til-tale i Python, må du sørge for at det er installert. Gå til Terminal (**Ctrl+Ø**) og skriv:
+
+    ```
+    pip install pyttsx3
+    ```
+
+2. Nå som tekst-til-tale er installert, kan du gå i gang med å bruke det. Opprett en ny fil (**Ctrl+N**).
+3. Lagre filen (**Ctrl+S**). Gi filen et navn (for eksempel hello.py).
+4. Øverst i programmet ditt må du gi beskjed om at du skal bruke tekst-til-tale. Det gjør du slik:
+
+    ```
+    import pyttsx3
+    ```
+
+5. Lag en blank linje etter import-setningen. Så skal du skrive en instruksjon som betyr at du lager en talesyntese som du kaller engine. I fortsettelsen kan du bruke engine-navnet når du skal skrive flere instruksjoner:
+
+    ```
+    engine = pyttsx3.init()
+    ```
+
+6. Det neste som skal skje, er at du må bestemme hva talesyntesen skal si. Her skal du bruke engelsk. La oss for eksempel si at du skal bruke meldingen "Hello, world. How are you?". I programmet ditt må du da skrive:
+
+    ```
+    engine.say("Hello, world. How are you?")
+    ```
+
+7. I den siste setningen skal du bruke en instruksjon som starter opplesing av meldingen. Det gjør du slik:
+
+    ```
+    engine.runAndWait()
+    ```
+
+8. Lagre filen (**Ctrl+S**).
+9. Gå til Terminal i Visual Studio Code (**Ctrl+Ø**).
+10. Pass på så du har hodetelefoner eller høyttalere koblet til datamaskinen din.
+11. Skriv kommandoen for å kjøre programmet ditt. Hvis programmet heter hello.py må du skrive:
+
+    ```
+    python hello.py
+    ```
+
+12. Ble det riktig?
+13. Gå tilbake til programmet ditt med **Ctrl+1**.
+14. Gjør en endring i programmet ditt slik at det leser opp en annen melding. Hva må du gjøre for å få til det?
+15. Lagre endringene du gjorde (**Ctrl+S**) og gå tilbake til Terminal (**Ctrl+Ø**). Kjør programmet på nytt.
+
+##### Løsningsforslag
+
+```
+import pyttsx3
+
+engine = pyttsx3.init()
+engine.say("Hello, world. How are you?")
+engine.runAndWait()
+```
+
+#### Deloppgave B
+
+I denne deloppgaven skal du utvide programmet fra deloppgave A. Det kan være morsomt å endre hastighet på stemmen som leser. Standard hastighet er 200 ord i minuttet. I forrige deloppgave tok du ikke med noe om hastighet og da brukes standardhastigheten automatisk. Men hva skjer hvis du endrer på det tallet?
+
+1. Gå først tilbake til programmet ditt (**Ctrl+1**).
+2. Finn tilbake til instruksjonen i programmet som ser slik ut: engine = pyttsx3.init().
+3. Legg til en ny blank linje etter denne linja slik at du har plass til å skrive en ny instruksjon. Nå kan du bruke noe som heter setProperty. Den kan brukes for å endre forskjellige egenskaper ved talesyntesen, blant annet hastigheten. Skriv følgende instruksjon. Bytt ut `<hastighet>` med et tall. Tall større enn 200 betyr raskere, tall under 200 betyr langsommere:
+
+    ```
+    engine.setProperty('rate', <hastighet>)
+    ```
+
+4. Når vi skriver 'rate' så betyr det at det er hastigheten vi vil gjøre noe med. Og etter kommaet sier vi hvilken verdi hastigheten skal ha.
+5. Lagre endringene (**Ctrl+S**), gå tilbake til Terminal (**Ctrl+Ø**), og kjør programmet på nytt:
+
+    ```
+    python hello.py
+    ```
+
+6. Hva skjedde da du kjørte programmet?
+7. Prøv gjerne andre verdier på hastigheten og hør hvordan det påvirker talesyntesen.
+
+##### Løsningsforslag
+
+```
+import pyttsx3
+
+engine = pyttsx3.init()
+engine.setProperty('rate', 400)
+engine.say("Hello, world. How are you?")
+engine.runAndWait()
+```
+
+#### Deloppgave C
+
+I forrige deloppgave endret du hastighet på talesyntesen. Det kan være morsomt å endre stemmen også. Hvor mange stemmer som finnes, kan variere fra datamaskin til datamaskin. Men ofte finnes det i hvert fall 2-3 stemmer.
+
+1. Gå først tilbake til programmet ditt (**Ctrl+1**).
+2. Finn tilbake til instruksjonen i programmet som ser slik ut: engine = pyttsx3.init().
+3. Legg til en ny blank linje etter denne linja slik at du har plass til å skrive en ny instruksjon. Du skal fortsette å bruke setProperty, men nå er det en annen egenskap ved talesyntesen du skal endre, nemlig stemmen. Skriv følgende instruksjon:
+
+    ```
+    engine.setProperty('voice', voices[1].id)
+    ```
+
+4. Tenk deg at vi har en liste med stemmer vi kan velge fra. I programmering starter vi ofte på 0. Så når vi skriver 1, så betyr det altså den andre stemmen i lista.
+5. Lagre endringene (**Ctrl+S**), gå tilbake til Terminal (**Ctrl+Ø**), og kjør programmet på nytt:
+
+    ```
+    python hello.py
+    ```
+
+6. Hva skjedde?
+7. I de to første deloppgavene skrev du ikke noe om hvilken stemme programmet skulle bruke. Likevel brukte programmet ditt en stemme. Hvorfor det? Jo, hvis man ikke oppgir noen stemme, velges den stemmen som er standard. Og standard stemme er nummer 0. Når vi ikke skriver noe, er det altså stemme nummer 0 som blir brukt.
+8. Prøv om det finnes flere stemmer på maskinen din som kan brukes. Gå først tilbake til programmet ditt (**Ctrl+1**). Finn tilbake til instruksjonen som du la til sist og velg stemme 2 i stedet for 1:
+
+    ```
+    engine.setProperty('voice', voices[2].id)
+    ```
+9. Hva skjedde denne gang? Hvis du ikke hørte noe, betyr det sannsynligvis at programmet ikke fant flere stemmer på maskinen. Du vil da få en feilmelding.
+
+##### Løsningsforslag
+```
+import pyttsx3
+
+engine = pyttsx3.init()
+engine.setProperty('voice', voices[2].id)
+engine.setProperty('rate', 200)
+engine.say("Hello, world. How are you?")
+engine.runAndWait()
+```
+</details>
