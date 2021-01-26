@@ -107,6 +107,8 @@ print("Hei " + navn)
 </details>
 
 ### Oppgave 2: Tekst-til-tale (Python)
+
+Tekst-til-tale eller talesyntese kan brukes til å få datamaskinen din til å snakke.
 <details>
 <summary>Klikk for å utvide.</summary>
 
