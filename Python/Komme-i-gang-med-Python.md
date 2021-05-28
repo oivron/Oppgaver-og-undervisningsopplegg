@@ -113,7 +113,6 @@ print("Hei " + navn)
 12. Lagre endringene (**Ctrl+S**), gå tilbake til Terminal (**Ctrl+Ø**) og kjør programmet på nytt. Hva ble annerledes denne gang?
 13. Ta en skjermdump av programvinduet til Visual Studio Code.
 </details>
-</details>
 
 ### Oppgave 2: Tekst-til-tale (Python)
 
@@ -125,7 +124,7 @@ Utstyr: Visual Studio Code, høyttalere.
 
 #### Deloppgave A
    
-   <details>
+<details>
 <summary>Klikk for å utvide.</summary>
 
 I denne deloppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
@@ -189,7 +188,7 @@ engine.runAndWait()
 
 #### Deloppgave B
 
-   <details>
+<details>
 <summary>Klikk for å utvide.</summary>
 
 I denne deloppgaven skal du utvide programmet fra deloppgave A. Det kan være morsomt å endre hastighet på stemmen som leser. Standard hastighet er 200 ord i minuttet. I forrige deloppgave tok du ikke med noe om hastighet og da brukes standardhastigheten automatisk. Men hva skjer hvis du endrer på det tallet?
@@ -226,7 +225,7 @@ engine.runAndWait()
       
 #### Deloppgave C
 
-      <details>
+<details>
 <summary>Klikk for å utvide.</summary>
 
 I forrige deloppgave endret du hastighet på talesyntesen. Det kan være morsomt å endre stemmen også. Hvor mange stemmer som finnes, kan variere fra datamaskin til datamaskin. Men ofte finnes det i hvert fall 2-3 stemmer.
