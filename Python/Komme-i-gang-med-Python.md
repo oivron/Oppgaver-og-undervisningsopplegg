@@ -126,7 +126,7 @@ Utstyr: Visual Studio Code, høyttalere.
 
 #### Deloppgave A
    
-I denne deloppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
+I denne oppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
 
 <details>
 <summary>Klikk for å utvide.</summary>
@@ -190,7 +190,7 @@ engine.runAndWait()
 
 #### Deloppgave B
 
-I denne deloppgaven skal du utvide programmet fra deloppgave A ved å bruke en annen hastighet på stemmen.
+Nå skal du utvide programmet ditt fra deloppgave A ved å bruke en annen hastighet på stemmen.
 
 <details>
 <summary>Klikk for å utvide.</summary>
