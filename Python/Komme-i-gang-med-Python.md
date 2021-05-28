@@ -222,7 +222,8 @@ engine.setProperty('rate', 400)
 engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
-      </details>
+</details>
+      
 #### Deloppgave C
 
       <details>
@@ -265,4 +266,4 @@ engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
 </details>
-      </details>
+</details>
