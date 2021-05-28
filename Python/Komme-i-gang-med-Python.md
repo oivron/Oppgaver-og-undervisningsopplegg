@@ -124,6 +124,9 @@ Tekst-til-tale (eller talesyntese) kan brukes til å få datamaskinen din til å
 Utstyr: Visual Studio Code, høyttalere.
 
 #### Deloppgave A
+   
+   <details>
+<summary>Klikk for å utvide.</summary>
 
 I denne deloppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
 
@@ -182,8 +185,12 @@ engine = pyttsx3.init()
 engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
+</details>
 
 #### Deloppgave B
+
+   <details>
+<summary>Klikk for å utvide.</summary>
 
 I denne deloppgaven skal du utvide programmet fra deloppgave A. Det kan være morsomt å endre hastighet på stemmen som leser. Standard hastighet er 200 ord i minuttet. I forrige deloppgave tok du ikke med noe om hastighet og da brukes standardhastigheten automatisk. Men hva skjer hvis du endrer på det tallet?
 
@@ -215,8 +222,11 @@ engine.setProperty('rate', 400)
 engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
-
+      </details>
 #### Deloppgave C
+
+      <details>
+<summary>Klikk for å utvide.</summary>
 
 I forrige deloppgave endret du hastighet på talesyntesen. Det kan være morsomt å endre stemmen også. Hvor mange stemmer som finnes, kan variere fra datamaskin til datamaskin. Men ofte finnes det i hvert fall 2-3 stemmer.
 
@@ -255,3 +265,4 @@ engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
 </details>
+      </details>
