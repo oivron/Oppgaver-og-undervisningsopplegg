@@ -12,6 +12,9 @@ Utstyr: Visual Studio Code.
 
 #### Deloppgave A
 
+<details>
+<summary>Klikk for å utvide.</summary>
+
 I denne deloppgaven skal du lage et lite program som skriver en melding på skjermen. Meldingen skal være fornavnet ditt.
 
 1. Opprett en ny fil (**Ctrl+N**).
@@ -45,7 +48,8 @@ python navn.py
 ```
 
 11. Gjorde programmet det det skulle?
-
+</details>
+   
 #### Deloppgave B
 
 I denne deloppgaven skal du utvide programmet fra deloppgave A. Vi kan få programmet til å spørre etter navnet på den som skal kjøre programmet. Hun må da taste inn navnet sitt. Til slutt skal programmet skrive navnet på skjermen.
