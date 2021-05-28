@@ -113,6 +113,7 @@ print("Hei " + navn)
 12. Lagre endringene (**Ctrl+S**), gå tilbake til Terminal (**Ctrl+Ø**) og kjør programmet på nytt. Hva ble annerledes denne gang?
 13. Ta en skjermdump av programvinduet til Visual Studio Code.
 </details>
+</details>
 
 ### Oppgave 2: Tekst-til-tale (Python)
 
