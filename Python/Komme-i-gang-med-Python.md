@@ -51,6 +51,10 @@ python navn.py
 </details>
    
 #### Deloppgave B
+   
+   
+<details>
+<summary>Klikk for å utvide.</summary>
 
 I denne deloppgaven skal du utvide programmet fra deloppgave A. Vi kan få programmet til å spørre etter navnet på den som skal kjøre programmet. Hun må da taste inn navnet sitt. Til slutt skal programmet skrive navnet på skjermen.
 
@@ -108,6 +112,7 @@ print("Hei " + navn)
 
 12. Lagre endringene (**Ctrl+S**), gå tilbake til Terminal (**Ctrl+Ø**) og kjør programmet på nytt. Hva ble annerledes denne gang?
 13. Ta en skjermdump av programvinduet til Visual Studio Code.
+</details>
 </details>
 
 ### Oppgave 2: Tekst-til-tale (Python)
