@@ -12,10 +12,10 @@ Utstyr: Visual Studio Code.
 
 #### Deloppgave A
 
+I denne deloppgaven skal du lage et lite program som skriver en melding på skjermen. Meldingen skal være fornavnet ditt.
+
 <details>
 <summary>Klikk for å utvide.</summary>
-
-I denne deloppgaven skal du lage et lite program som skriver en melding på skjermen. Meldingen skal være fornavnet ditt.
 
 1. Opprett en ny fil (**Ctrl+N**).
 2. Lagre filen (**Ctrl+S**). Gi filen et navn (for eksempel navn.py).
@@ -51,12 +51,13 @@ python navn.py
 </details>
    
 #### Deloppgave B
-   
+
+I denne deloppgaven skal du utvide programmet fra deloppgave A.
    
 <details>
 <summary>Klikk for å utvide.</summary>
 
-I denne deloppgaven skal du utvide programmet fra deloppgave A. Vi kan få programmet til å spørre etter navnet på den som skal kjøre programmet. Hun må da taste inn navnet sitt. Til slutt skal programmet skrive navnet på skjermen.
+Vi kan få programmet til å spørre etter navnet på den som skal kjøre programmet. Hun må da taste inn navnet sitt. Til slutt skal programmet skrive navnet på skjermen.
 
 1. Gå først tilbake til programmet ditt (**Ctrl+1**).
 2. Opprett en ny fil (**Ctrl+N**).
@@ -125,10 +126,10 @@ Utstyr: Visual Studio Code, høyttalere.
 
 #### Deloppgave A
    
+I denne deloppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
+
 <details>
 <summary>Klikk for å utvide.</summary>
-
-I denne deloppgaven skal du lage et lite program som leser opp en kort melding med tekst-til-tale.
 
 1. Før du kan bruke tekst-til-tale i Python, må du sørge for at det er installert. Gå til Terminal (**Ctrl+Ø**) og skriv:
 
@@ -189,10 +190,12 @@ engine.runAndWait()
 
 #### Deloppgave B
 
+I denne deloppgaven skal du utvide programmet fra deloppgave A ved å bruke en annen hastighet på stemmen.
+
 <details>
 <summary>Klikk for å utvide.</summary>
 
-I denne deloppgaven skal du utvide programmet fra deloppgave A. Det kan være morsomt å endre hastighet på stemmen som leser. Standard hastighet er 200 ord i minuttet. I forrige deloppgave tok du ikke med noe om hastighet og da brukes standardhastigheten automatisk. Men hva skjer hvis du endrer på det tallet?
+Det kan være morsomt å endre hastighet på stemmen som leser. Standard hastighet er 200 ord i minuttet. I forrige deloppgave tok du ikke med noe om hastighet og da brukes standardhastigheten automatisk. Men hva skjer hvis du endrer på det tallet?
 
 1. Gå først tilbake til programmet ditt (**Ctrl+1**).
 2. Finn tilbake til instruksjonen i programmet som ser slik ut: engine = pyttsx3.init().
@@ -225,6 +228,8 @@ engine.runAndWait()
 </details>
       
 #### Deloppgave C
+
+I denne deloppgaven skal du velge en annen stemme til opplesingen.
 
 <details>
 <summary>Klikk for å utvide.</summary>
