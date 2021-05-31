@@ -39,19 +39,7 @@ Hva er det som skal skje når du rister micro:bit? Jo, vi vil at micro:bit skal 
 antall = random.randint(1, 6)
 ```
 
-Koden din skal nå se omtrent slik ut:
-
-```
-from micro:bit import *
-import speech
-import random
-
-while True:
-  if accelerometer.was_gesture("shake"):
-    antall = random.randint(1, 6)
-```
-
-Dette er all koden som skal til for å lage et tilfeldig tall mellom 1 og 6 når du rister micro:bit. Men hva er det som mangler? Jo, du må sørge for at tallet leses opp og vises på micro:bit. Nå trenger du modulen speech. For at micro:bit skal lese opp tallet med tekst-itl-tale, kan du bruke instruksjonen:
+Hva er det som mangler nå? Jo, du må sørge for at tallet leses opp og vises på micro:bit. Nå trenger du modulen speech. For at micro:bit skal lese opp tallet med tekst-itl-tale, kan du bruke instruksjonen:
 
 ```
 speech.say(str(antall))
