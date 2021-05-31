@@ -1,6 +1,6 @@
 ## Oppgaver med micro:bit.
 
-Her finner du oppgaver for micro:bit. Du finner flere oppgaver med micro:bit og Bit:bot i [super:bit-oppdraget](https://github.com/oivron/komme-i-gang-micro:bit).
+Her finner du oppgaver for micro:bit. Du finner flere oppgaver med micro:bit og Bit:bot i [super:bit-oppdraget](https://github.com/oivron/komme-i-gang-microbit).
 
 ### Oppgave 1 Terning
 
