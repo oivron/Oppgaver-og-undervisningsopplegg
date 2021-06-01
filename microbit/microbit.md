@@ -1,16 +1,10 @@
 ## Oppgaver med micro:bit.
 
-Her finner du oppgaver for micro:bit. Du finner flere oppgaver med micro:bit og Bit:bot i [super:bit-oppdraget](https://github.com/oivron/komme-i-gang-microbit).
+Her finner du tilrettelagte oppgaver for micro:bit. Du finner flere oppgaver med micro:bit og Bit:bot i [super:bit-oppdraget](https://github.com/oivron/komme-i-gang-microbit).
 
 ### Oppgave 1 Terning
 
-I denne oppgaven skal du bruke micro:bit til å lage en terning. I oppgaven brukes:
-- Løkker
-- Betingelser
-- Variable
-- Datatyper (heltall og tekst)
-- str-funksjonen
-- microbit-modulene random, speech
+I denne oppgaven skal du bruke micro:bit til å lage en terning. I oppgaven brukes: løkker, betingelser, variable, datatyper (heltall og tekst), str-funksjonen, microbit-modulene random og speech.
 
 <details>
 <summary>Klikk for å utvide.</summary>
