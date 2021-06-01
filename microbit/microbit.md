@@ -72,14 +72,7 @@ while True:
 
 ### Oppgave 2 Gangespill
 
-I denne oppgaven skal du lage et spill som kan gange to tall. I oppgaven brukes:
-- Løkker
-- Betingelser
-- Variable
-- Datatyper (heltall og tekst)
-- Operatorer (multiplikasjon, inkrement, boolsk)
-- str-funksjonen
-- microbit-modulene random, speech, music
+I denne oppgaven skal du lage et spill som kan gange to tall. I oppgaven brukes: Løkker, betingelser, variable, datatyper (heltall og tekst), operatorer (multiplikasjon, inkrement, boolsk), str-funksjonen, microbit-modulene random, speech og music.
 
 <details>
 <summary>Klikk for å utvide.</summary>
