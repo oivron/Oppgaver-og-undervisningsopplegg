@@ -9,7 +9,7 @@ I denne oppgaven skal du bruke micro:bit til å lage en terning. I oppgaven bruk
 <details>
 <summary>Klikk for å utvide.</summary>
 
-Utstyr: micro:bit, buzzer/hodetelefoner/høyttalere, ledninger.
+Utstyr: micro:bit, høyttalere.
 
 I denne oppgaven skal du lage en terning. Når terningen ristes, skal den vise antallet på micro:bit-skjemen og lese det med tekst-til-tale. Når terningen for eksempel viser 3, vil det stå 3 på skjermen samtidig som talesyntesen leser tallet på engelsk. Det finnes ingen norsk stemme. Tekst-til-tale på micro:bit er ikke ferdig utviklet og er ganske dårlig. Men det er morsomt å bruke den likevel.
 
