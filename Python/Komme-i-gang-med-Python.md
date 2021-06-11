@@ -211,6 +211,9 @@ I denne oppgaven skal du lage et lite program som leser opp en kort melding med 
 
 ##### Løsningsforslag
 
+   <details>
+<summary>Klikk for å utvide.</summary>
+      
 ```
 import pyttsx3
 
@@ -219,6 +222,7 @@ engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
 </details>
+   </details>
 
 #### Deloppgave B
 
@@ -249,6 +253,9 @@ Det kan være morsomt å endre hastighet på stemmen som leser. Standard hastigh
 
 ##### Løsningsforslag
 
+   <details>
+<summary>Klikk for å utvide.</summary>
+      
 ```
 import pyttsx3
 
@@ -257,7 +264,9 @@ engine.setProperty('rate', 400)
 engine.say("Hello, world. How are you?")
 engine.runAndWait()
 ```
-</details>
+
+   </details>
+   </details>
       
 #### Deloppgave C
 
@@ -293,6 +302,10 @@ I forrige deloppgave endret du hastighet på talesyntesen. Det kan være morsomt
 9. Hva skjedde denne gang? Hvis du ikke hørte noe, betyr det sannsynligvis at programmet ikke fant flere stemmer på maskinen. Du vil da få en feilmelding.
 
 ##### Løsningsforslag
+   
+<details>
+<summary>Klikk for å utvide.</summary>
+   
 ```
 import pyttsx3
 
