@@ -46,6 +46,7 @@ I denne deloppgaven skal du lage et lite program som skriver en melding på skje
    ```
 
 11. Gjorde programmet det det skulle?
+
 </details>
 
 #### Deloppgave B
@@ -147,10 +148,12 @@ else:
 
 </details>
 </details>
+</details>
 
 ### Oppgave 2: Tekst-til-tale (Python)
 
 Tekst-til-tale (eller talesyntese) kan brukes til å få datamaskinen din til å snakke.
+
 <details>
 <summary>Klikk for å utvide.</summary>
 
