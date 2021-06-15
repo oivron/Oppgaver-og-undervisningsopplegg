@@ -369,13 +369,13 @@ I denne deloppgaven skal du lage et lite program som bruker Winsound til å lage
 <details>
 <summary>Klikk for å utvide.</summary>
 
-    ```
-    import winsound
+```
+import winsound
 
-    freq = 440
-    dur = 1000
-    winsound.Beep(freq, dur)
-    ```
+freq = 440
+dur = 1000
+winsound.Beep(freq, dur)
+```
 
 </details>
 </details>
