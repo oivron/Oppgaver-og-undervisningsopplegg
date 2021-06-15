@@ -417,15 +417,15 @@ I denne deloppgaven skal du utvide programmet fra deloppgave B. Du skal bruke de
 <details>
 <summary>Klikk for å utvide.</summary>
 
-    ```
-    import winsound
+```
+import winsound
     
-    freq = 440
-    dur = 100
-    while freq < 3000:
-        winsound.Beep(freq, dur)    
-        freq+= 200
-    ```
+freq = 440
+dur = 100
+while freq < 3000:
+    winsound.Beep(freq, dur)    
+    freq+= 200
+```
 
 </details>
 </details>
@@ -459,11 +459,11 @@ Det finnes mange systemlyder i Windows, men det er ikke sikkert at alle har fåt
 <details>
 <summary>Klikk for å utvide.</summary>
 
-    ```
-    import winsound
+```
+import winsound
 
-    winsound.PlaySound("DeviceConnect", winsound.SND_ALIAS)
-    ```
+winsound.PlaySound("DeviceConnect", winsound.SND_ALIAS)
+```
 
 </details>
 </details>
@@ -515,15 +515,15 @@ I oppgaven kan du velge mellom de samme systemlydene som i forrige oppgave: Devi
 <details>
 <summary>Klikk for å utvide.</summary>
 
-    ```
-    import winsound
+```
+import winsound
 
-    lyder = ["Notification.Mail", "DeviceDisconnect", "WindowsLogon"]
-    antall = len(lyder)
+lyder = ["Notification.Mail", "DeviceDisconnect", "WindowsLogon"]
+antall = len(lyder)
 
-    for i in range(antall):
-        winsound.PlaySound(lyder[i], winsound.SND_ALIAS)
-    ```
+for i in range(antall):
+    winsound.PlaySound(lyder[i], winsound.SND_ALIAS)
+```
 
 </details>
 </details>
