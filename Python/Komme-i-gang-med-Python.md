@@ -63,9 +63,9 @@ I denne deloppgaven skal du utvide programmet fra deloppgave A. Vi kan få progr
 1. Gå først tilbake til programmet ditt (**Ctrl+1**).
 4. Først må du bruke en funksjon som heter input. Input bruker vi litt på samme måte som print, det vil si at vi trenger parenteser etter input og anførselstegn inne i parentesene. Når programmet inneholder input, vil programmet stoppe opp og vente på svar fra deg. Du må da skrive inn et svar og trykke Enter:
 
-   ```
+```
    input("Hva heter du?")
-   ```
+```
 
 5. For at programmet ditt skal klare å ta vare på svaret du gir, må vi bruke noe som kalles en variabel. En variabel må ha et navn og brukes til å lagre en verdi. En variabel har derfor både et navn og en verdi. Det svaret du gir på funksjonen input blir da lagret i variabelen. Du kan kalle variabelen for navn.
 
@@ -73,28 +73,28 @@ I denne deloppgaven skal du utvide programmet fra deloppgave A. Vi kan få progr
 
    Skriv variabelnavnet og et likhetstegn foran input-setningen du nettopp skrev:
 
-   ```
+```
    navn = input("Hva heter du?")
-   ```
+```
 
 6. Til slutt i dette programmet skal du bruke print-funksjonen på nytt. Da kan vi få programmet til å skrive ut verdien på variabelen navn. Men du skal bruke print litt annerledes enn i deloppgave A. Når vi bruker anførselstegn, vil meldingen som står mellom anførselstegnene bli skrevet ut nøyaktig slik det står. For å få skrevet ut verdien til variabelen navn, kan vi ikke bruke anførselstegn:
 
-   ```
+```
    print(navn)
-   ```
+```
 
 8. Lagre endringene (**Ctrl+S**), gå tilbake til Terminal (**Ctrl+Ø**), og kjør programmet på nytt
 
-   ```
+```
    python navn.py
-   ```
+```
 
 9. Hva skjedde da du kjørte programmet?
 10. Du skal nå endre litt på print-funksjonen du nettopp brukte. I tillegg til å skrive verdien på variabelen navn, skal programmet også skrive en liten melding. Husk at vi må bruke anførselstegn for å skrive ut en melding nøyaktig slik den står, men at vi må sløyfe anførselstegnene når vi skal skrive ut en variabel. For å skrive ut både en melding og en variabel, må du skrive følgende:
 
-   ```
+```
    print("Hei " + navn)
-   ```
+```
 
 11. Legg merke til at det står et mellomrom etter ordet hei. Det er for at Hei og verdien til variabelen navn ikke skal står helt inntil hverandre. Det ser bedre ut.
 
@@ -105,10 +105,10 @@ I denne deloppgaven skal du utvide programmet fra deloppgave A. Vi kan få progr
 <details>
 <summary>Klikk for å utvide.</summary>
 
-   ```
+```
    navn = input("Hva heter du?")
    print("Hei " + navn)
-   ```
+```
 
 </details>
 </details>
@@ -126,9 +126,9 @@ Her skal du fortsette å utvide programmet fra deloppgave A og B. Du skal kontro
 3. Du skal nå kontrollere om det ble oppgitt et navn. Det kan vi gjøre ved å sjekke om variabelen navn har en verdi eller ikke. Du kan bruke en if-setning.
 4. Programkoden som skal stå inne i if-setningen skal utføres bare hvis if-setningen (det vil si betingelsen) er oppfylt. Hvis betingelsen er oppfylt, har den verdien True (sann). Hvis ikke, har den verdien False (usann). Du kan skrive det slik:
 
-   ```
+```
    if navn:
-   ```
+```
 
 5. Inne i if-setningen må du skrive det som skal skje hvis betingelsen er oppfylt, altså hvis variabelen navn har en verdi. Bruk den samme print-kommandoen som du brukte tidligere.
 
@@ -142,14 +142,13 @@ Her skal du fortsette å utvide programmet fra deloppgave A og B. Du skal kontro
 <details>
 <summary>Klikk for å utvide.</summary>
 
-   ```
+```
 navn = input("Hva heter du?")
 if navn:
        print("Hei " + navn)
 else:
        print("Du oppgav ikke et navn!")
-
-   ```
+```
 
 </details>
 </details>
