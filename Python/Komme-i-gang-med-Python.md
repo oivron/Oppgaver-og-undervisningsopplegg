@@ -22,31 +22,31 @@ I denne deloppgaven skal du lage et lite program som skriver en melding på skje
 2. Lagre filen (**Ctrl+S**). Gi filen et navn (for eksempel navn.py).
 3. Den første instruksjonen du skal skrive, er en funksjon i Python som heter print. Den brukes for å skrive en melding på skjermen. I dette tilfellet er meldingen navnet ditt (for eksempel Anna). Etter print må selve meldingen stå mellom to parenteser. Og meldingen skal også omsluttes av anførselstegn:
 
-   ```
+```
    print("Anna")
-   ```
+```
 
 4. Lagre filen (**Ctrl+S**).
 5. Gå til Terminal i Visual Studio Code (**Ctrl+Ø**).
 6. Skriv kommandoen for å kjøre programmet ditt. Du må skrive python etterfulgt av navnet på fila som inneholder programmet ditt:
 
-   ```
+```
    python navn.py
-   ```
+```
 
 7. For å se hva programmet ditt skrev på skjermen, kan du bruke **Ctrl+Pil opp**. Ble det riktig?
 8. Gå tilbake til programmet ditt med **Ctrl+1**.
 9. Gjør en endring i programmet ditt slik at programmet i stedet skriver «Hei på deg» og så navnet ditt. For eksempel: «Hei på deg, Anna».
 
-   ```
+```
    print("Hei på deg, Anna")
-   ```
+```
 
 10. Lagre endringene (**Ctrl+S**) og gå tilbake til Terminal (**Ctrl+Ø**). Kjør programmet på nytt:
 
-   ```
+```
    python navn.py
-   ```
+```
 
 11. Gjorde programmet det det skulle?
 
